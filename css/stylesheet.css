@@ -52,13 +52,30 @@ body {
   box-sizing: border-box;
   color:#373737;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 8pt 0;
   font-weight: bold;
   color:#222222;
+}
+
+.cysec {
+  color: #1d3e81;
+  display: inline;
+}
+
+.prospective {
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #f1f6ff;
+  border-color: #f0f0f0;
+}
+
+.prospective h5 p {
+  margin: 5pt;
 }
 
 .header {
@@ -93,10 +110,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav a:hover {
     text-decoration: none;
+    color: #0366d6;
 }
 
 .nav a.active {
     font-weight: bold;
+    color: #0050ac;
 }
 
 h1 {
